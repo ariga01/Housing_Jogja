@@ -105,4 +105,4 @@ for area in area_list:
             attribute.append(to_list)
 
 attribute = pd.DataFrame(data=attribute)
-attribute.to_csv('Output\Early_Raw-Scraped-Data.csv', index=False)
+attribute.to_csv('Output\Early_Data_Scraped-Raw.csv', index=False)
